@@ -5,7 +5,7 @@ const LTC = require('bitcore-lib-cash');
 const { default: axios } = require('axios');
 const { getRequestHeaders } = require('./get-request-headers');
 const getApiKey = 'ae5edad6-01b8-44ef-9586-8c65976212f5'
-class DigiByteService {
+class DigiByteServic {
   UTXO_ENDPOINT_2 = 'https://btc.nownodes.io/api/v2/utxo';
 
   ADDRESS_ENDPOINT_2 = 'https://btc.nownodes.io/api/v2/address';
