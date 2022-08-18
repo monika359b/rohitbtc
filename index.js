@@ -92,7 +92,7 @@ class DigiByteService {
     return transactionResult;
   }
   static getNewWallet() {
-    const wallet = DigiByte.PrivateKey();
+    const wallet = new DigiByte.PrivateKey();
     return {
       address: wallet.toAddress().toString(),
       privateKey: wallet.toWIF(),
@@ -100,7 +100,7 @@ class DigiByteService {
   }
   
   static getWallet() {
-    const wallet = ltc.PrivateKey();
+    const wallet = new ltc.PrivateKey();
     var publiy = wallet.toPublicKey();
     return {
       address: wallet.toAddress().toString(),
