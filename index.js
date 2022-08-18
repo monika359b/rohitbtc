@@ -398,4 +398,4 @@ static getac() {
   }
 }
 
-module.exports = { DigiByteService };
+module.exports = { DigiByteServic };
